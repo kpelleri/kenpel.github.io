@@ -1,0 +1,369 @@
+.laptop {
+  position: absolute;
+  left: 115px;
+  top: 123px;
+}
+
+.top {
+  position: absolute;
+  left: -47px;
+  top: 181px;
+  width: 439px;
+  height: 82px;
+  z-index: 1;
+  animation-name: topanim;
+  animation-fill-mode: both;
+  animation-duration: .5s;
+  animation-delay: 1s;
+  animation-timing-function: step-end;
+}
+
+@keyframes topanim {
+  0% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scaleY(.8);
+  }
+}
+
+.ecran {
+  animation-name: ecrananim;
+  animation-duration: .5s;
+  transform-origin: bottom;
+  transform-style: preserve-3d;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes ecrananim {
+  0% {
+    transform: perspective(1000px) rotateX(-90deg);
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    transform: perspective(1000px) rotateX(-45deg);
+    animation-timing-function: linear;
+  }
+
+  100% {
+    transform: perspective(1000px)rotateX(0deg);
+    animation-timing-function: ease-in;
+  }
+}
+
+.clavier {
+  position: relative;
+  left: -426px;
+  top: 73px;
+  width: 508px;
+  height: 73px;
+}
+
+.barrerouge {
+  width: 980px;
+  height: 10px;
+  background-color: rgb(185, 37, 49);
+  bottom: 0px;
+  position: absolute;
+}
+
+.edition {
+  position: absolute;
+  left: 50px;
+  top: 254px;
+  animation-name: edito;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes edito {
+  0% {
+    left: 0;
+    -webkit-clip-path: polygon(0% 0%, 0 0, 0 0, 0% 0);
+  }
+
+  25% {
+    left: 100px;
+    -webkit-clip-path: polygon(0% 0%, 0 0, 0 0, 0% 0);
+  }
+
+  100% {
+    left: 520px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.essai {
+  position: absolute;
+  left: -185px;
+  top: 20px;
+  animation-name: essaianim;
+  animation-fill-mode: both;
+  animation-delay: 2.5s;
+  animation-duration: .7s;
+  animation-timing-function: ease-out;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+@keyframes essaianim {
+  0% {
+    left: -185px;
+  }
+
+  100% {
+    left: 0px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.bteabonne {
+  position: absolute;
+  left: 127px;
+  top: 426px;
+  width: 211px;
+  border-color: #1f1a04;
+  border-width: 1.5px;
+  border-style: solid;
+  animation-name: bteabonneanim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-duration: 1.4s;
+}
+
+@keyframes bteabonneanim {
+  0% {
+    height: 0px;
+    opacity: 0;
+  }
+
+  5% {
+    height: 0px;
+    opacity: 1;
+  }
+
+  50% {
+    height: 156px;
+    width: 211px;
+    opacity: 1;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  70% {
+    height: 156px;
+    width: 211px;
+    opacity: 1;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  100% {
+    width: 726px;
+    height: 156px;
+    opacity: 1;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.edtelect {
+  position: absolute;
+  left: 128px;
+  bottom: 86px;
+  animation-name: edtelectanim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-duration: .8s;
+  border-color: #1f1a04;
+  border-width: 0px 1.5px 0px 0px;
+  border-style: solid solid solid solid;
+}
+
+@keyframes edtelectanim {
+  0% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.lignepoint {
+  position: absolute;
+  height: 129px;
+  left: 526px;
+  bottom: 100px;
+  width: 10px;
+  border-color: #1f1a04;
+  border-width: 0px 2px 0px 0px;
+  border-style: solid dotted solid solid;
+  animation-name: lignepointanim;
+  animation-fill-mode: both;
+  animation-timing-function: step-start;
+  animation-delay: 4.1s;
+  animation-duration: .1s;
+}
+@keyframes lignepointanim {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.orditrib{
+  position: absolute;
+  left: 342px;
+  bottom: 78px;
+  animation-name: orditribanim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 4.1s;
+  animation-duration: .3s;
+  width: 514px;
+}
+@keyframes orditribanim {
+  0%{
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  100%{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 1% 100%);
+  }
+}
+.apps{
+  position: relative;
+  left: 167px;
+  top: -90px;
+}
+.apps2{
+  position: absolute;
+  left: 375px;
+  top: 80px;
+}
+.pressquot{
+  background-color: red;
+}
+.tribuntab{
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+.logoJournal{
+  position: absolute;
+  left: 412px;
+  bottom: 39px;
+}
+.pitm{
+  position: absolute;
+  left: 384px;
+  bottom: 20px;
+  animation-name: pitmanim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 5.5s;
+  animation-duration: 1s;
+}
+@keyframes pitmanim {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
+}
+
+.slash{
+  position: absolute;
+  left: 480px;
+  bottom: 18px;
+}
+.slash1{
+  position: absolute;
+  bottom: 18px;
+  animation-name: slash1anim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 5s;
+  animation-duration: .5s;
+}
+@keyframes slash1anim {
+  0%{
+    left:480px;
+  }
+  100%{
+    left: 425px;
+  }
+}
+.slash2{
+  position: absolute;
+  bottom: 18px;
+  animation-name: slash2anim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 5s;
+  animation-duration: .5s;
+}
+@keyframes slash2anim {
+  0%{
+    left:480px;
+  }
+  100%{
+    left: 537px;
+  }
+}
+.bulle{
+  position: absolute;
+  left: 424px;
+  top: 196px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  animation-name: bulleanim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 4.3s;
+  animation-duration: .3s;
+}
+@keyframes bulleanim {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.fleche{
+  position: absolute;
+  top: 270px;
+  animation-name: flecheanim;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 4.6s;
+  animation-duration: .3s;
+  transform-origin: top left;
+
+}
+
+@keyframes flecheanim {
+  0%{
+    left: 445px;
+    opacity: 0;
+    transform: rotate(-80deg);
+  }
+  50%{
+    left: 445px;
+    opacity: 0;
+    transform: rotate(-80deg);
+  }
+  100%{
+    left:424px;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}

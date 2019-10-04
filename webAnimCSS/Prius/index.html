@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+  <title>Toyota Prius</title>
+  <meta charset='utf-8'>
+  <meta name='format-detection' content='telephone=no'>
+  <script src="https://gcm-contents.omerlocdn.com/GCMassets/jquery-3.2.1.min.js"></script>
+
+  <link href="assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/owl.theme.default.css" rel="stylesheet" type="text/css">
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      line-height: 1;
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .ad {
+      position: relative;
+      width: 980px;
+      height: 670px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .owl-carousel {
+      position: absolute;
+      overflow: hidden;
+    }
+
+    .owl-dots {
+      bottom: 57px;
+
+    }
+
+    .slide {
+      display: inline-block;
+      background-position: center;
+    }
+
+    .gcmImage {
+      display: block;
+      position: absolute;
+    }
+
+    .lp-legal-bg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .5);
+      padding: 1px;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 9998;
+      -webkit-transform: translate3d(-1px, 670px, 0);
+      -webkit-transition: opacity .5s ease, -webkit-transform 0 .5s linear;
+    }
+
+    .lp-legal-bg.lp-legal-active {
+      opacity: 1;
+      -webkit-transform: translate3d(-1px, 0, 0);
+      -webkit-transition: opacity .5s ease, -webkit-transform 0 0 linear;
+    }
+
+    .lp-legal {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: auto;
+      font-family: helvetica, arial, sans-serif;
+      color: #868889;
+      z-index: 9999;
+      -webkit-transform: translate3d(0, 0, 0);
+      -webkit-transition: -webkit-transform .5s ease;
+    }
+
+    .lp-legal.lp-legal-active {
+      -webkit-transform: translate3d(0, -100%, 0);
+    }
+
+    .lp-legal-btn {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 50px;
+      height: 21px;
+      background: #f1f1f1;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 175%;
+      cursor: pointer;
+    }
+
+    .lp-legal-text {
+      position: relative;
+      float: left;
+      width: 100%;
+      height: auto;
+      max-height: 229px;
+      background: #f1f1f1;
+      font-size: 11px;
+      text-align: justify;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 5px;
+      -webkit-overflow-scrolling: touch;
+      overflow: auto;
+    }
+
+    .lp-legal-text p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .link {
+      display: block;
+      position: absolute;
+    }
+
+    .linkIMG {}
+
+    .owl-drag {
+      background: rgba(0, 0, 0, .2);
+      padding: 125px;
+
+    }
+
+    .owl-dots {
+      background-image: url("assets/autoPrius.png");
+      background-repeat: no-repeat;
+      background-position: 431px 67px;
+      padding-top: 243px;
+
+    }
+
+    .owl-dots {
+      bottom: 200px;
+    }
+
+    .owl-nav {
+      bottom: 110px;
+    }
+
+    .popup {
+      position: absolute;
+      opacity: 0;
+      /*pointer-events: none;*/
+      -webkit-transition: opacity .3s ease;
+    }
+
+    .popup.active {
+      opacity: 1;
+    }
+
+    .btn {
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: url('assets/plus.png') no-repeat;
+      -webkit-transform: rotate(0deg);
+      -webkit-transition: -webkit-transform .1s step-start;
+
+    }
+
+    .btn.active {
+
+      transform: translate(246px, -99px)rotate(45deg);
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ad" style="background:url('assets/BG.jpg') no-repeat; background-size:100%; background-color:#ccc;" id="MonAnnonce_div_1">
+
+    <div class="lp-legal-bg" id="BoutonLegalv2_div_1"></div>
+    <div class="lp-legal" id="BoutonLegalv2_div_2">
+      <!--PNtxt-->
+      <div class="lp-legal-text" id="BoutonLegalv2_div_4"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Cambria,serif"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">* Total de 260
+                paiements hebdomadaires à partir de 73,15 $. Limite de 100 000 kilomètres. Frais de 0,10 $ par kilomètre excédentaire. Offre applicable au modèle de base neuf en stock <strong>Prius Prime 2019 (KARK1C A). </strong>Prix de vente
+                suggéré de 35 234 $. Frais de concessionnaire de 399 $ (applicables chez certains concessionnaires), frais de transport et de préparation et frais de climatisation inclus. Taxes applicables en sus. Le montant payable hebdomadairement
+                tient compte du rabais du programme Roulez vert – volet Roulez électrique du Gouvernement du Québec de 4 000 $ et du rabais de 2 500 $ du programme iVZE du Gouvernement du Canada (y compris les taxes applicables au rabais du programme
+                Roulez vert, dont le paiement sera requis à la livraison). Un montant de 73,15$ (équivalant au premier versement hebdomadaire) ainsi que les droits sur les pneus et les taxes applicables seront requis à la livraison. Programme de
+                location au détail et de financement à l’achat offert par Toyota Canada inc. et conditionnel à l’approbation du crédit par Toyota Services Financiers. L’immatriculation, les assurances, les taxes et les droits sur les pneus sont en
+                sus. Sous réserve des conditions applicables, les offres s’adressent aux particuliers qui louent ou qui achètent un véhicule d’ici le 31 mai 2019 chez un concessionnaire participant de l’Association des concessionnaires Toyota du
+                Québec, où tous les détails peuvent être obtenus. Le concessionnaire peut louer ou vendre à prix moindre. Les offres peuvent changer sans préavis. † Le rabais de 4 000 $ du programme Roulez vert – volet Roulez électrique du
+                Gouvernement du Québec et le rabais de 2 500 $ du programme iVZE du Gouvernement du Canada sont inclus dans l’offre de location. Les rabais sont accordés après le calcul des taxes applicables. Dans le cas du rabais Roulez vert, le
+                paiement des taxes applicables sur ce rabais sera requis à la livraison. Les programmes sont administrés respectivement par le Gouvernement du Québec et le Gouvernement du Canada. Toyota n’est pas responsable de l’administration de
+                ces programmes ni d’aucune modification à ceux-ci, notamment de leur fin prématurée. Des conditions et des restrictions s’appliquent. Consultez http://vehiculeselectriques.gouv.qc.ca/rabais/ve-neuf/conditions-rabais-vehicule-neuf.asp
+                et http://www.tc.gc.ca/fr/services/routier/technologies-novatrices/vehicules-zero-emission.html pour tous les détails.</div>
+      <!--/PNtxt-->
+
+      <div class="lp-legal-btn" id="BoutonLegalv2_div_3">
+        Légal
+      </div>
+    </div>
+    <img src="assets/2_Bouton POPUP_Blanc.svg" class="gcmImage btn" style="left:633px; top:237px; width:40px; height:40px; opacity:1; z-index:4;" id="gcmImage_img_1">
+
+    <div class="owl-carousel owl-theme" data-navDots="true" data-navPos="-25px" data-autoPlay="true" data-autoDuration="5" data-loop="true" data-centerSlide="false" data-margin="0px" style="left:0px; top:0px; width:745px; height:424px; display:none;"
+      id="GallerieV2_div_1">
+
+
+      <div class="slide" style="background:url('assets/ecran-1.jpg') no-repeat; background-size:100%; background-position:center; width:745px; height:424px;" id="Slide_div_1"></div>
+
+      <div class="slide" style="background:url('assets/ecran-2.jpg') no-repeat; background-size:100%; background-position:center; width:745px; height:424px;" id="Slide_div_2"></div>
+
+      <div class="slide" style="background:url('assets/ecran-3.jpg') no-repeat; background-size:100%; background-position:center; width:745px; height:424px;" id="Slide_div_3"></div>
+
+      <div class="slide" style="background:url('assets/ecran-4.jpg') no-repeat; background-size:100%; background-position:center; width:745px; height:424px;" id="Slide_div_4"></div>
+
+      <div class="slide" style="background:url('assets/ecran-5.jpg') no-repeat; background-size:100%; background-position:center; width:745px; height:424px;" id="Slide_div_5"></div>
+
+
+    </div>
+
+  </div>
+
+  <script src="assets/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      $("#gcmImage_img_1").click(function(e) {
+        e.stopPropagation();
+        $("#GallerieV2_div_1").fadeToggle(200)
+      })
+
+
+      var owl = $('.owl-carousel');
+
+      var autoplayPref = false;
+      if (owl.attr("data-autoPlay") == "true") {
+        autoplayPref = true;
+      }
+
+      var loopPref = false;
+      if (owl.attr("data-loop") == "true") {
+        loopPref = true;
+      }
+      var navDotsPref = false;
+      if (owl.attr("data-navDots") == "true") {
+        navDotsPref = true;
+      }
+
+      var centerSlidePref = false;
+      if (owl.attr("data-centerSlide") == "true") {
+        centerSlidePref = true;
+      }
+
+      owl.owlCarousel({
+        loop: loopPref,
+        center: centerSlidePref,
+        margin: parseInt(owl.attr("data-margin")),
+        nav: false,
+        dots: navDotsPref,
+        items: 1,
+        autoWidth: true,
+        autoplay: autoplayPref,
+        autoplayTimeout: parseInt(owl.attr("data-autoDuration")) * 1000,
+        autoplayHoverPause: true,
+        onInitialized: completeInit
+      });
+
+      function completeInit() {
+        $(".owl-dots").css({
+          "margin": owl.attr("data-navPos"),
+          "position": "relative"
+        });
+      }
+    });
+  </script>
+
+  <script>
+    var legal = {
+      container: document.getElementsByClassName('lp-legal')[0],
+      btn: document.getElementsByClassName('lp-legal-btn')[0],
+      bg: document.getElementsByClassName('lp-legal-bg')[0],
+      animate: function() {
+        if (legal.bg.classList.contains('lp-legal-active')) {
+          legal.container.classList.remove('lp-legal-active');
+          legal.bg.classList.remove('lp-legal-active');
+        } else {
+          legal.container.classList.add('lp-legal-active');
+          legal.bg.classList.add('lp-legal-active');
+        }
+      }
+    }
+
+    legal.btn.onclick = function() {
+      legal.animate()
+    };
+    legal.bg.onclick = function() {
+      legal.animate()
+    };
+  </script>
+
+  <script>
+    $(".btn").on('click', function() {
+      $(this).toggleClass("active");
+      $(this).next(".popup").toggleClass("active");
+    })
+  </script>
+
+</body>
+
+</html>

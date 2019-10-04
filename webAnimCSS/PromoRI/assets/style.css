@@ -1,0 +1,255 @@
+.carrebleu {
+  width: 490px;
+  height: 670px;
+  background-color: #2b2a3a;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.iphonenoir {
+  position: absolute;
+  top: 0px;
+  height: 670px;
+}
+
+.votredit {
+  position: absolute;
+  top: 137px;
+  left: 148px;
+}
+
+.vosection {
+  position: absolute;
+  bottom: 14px;
+  left: 93px;
+}
+
+.coteblanc {
+  width: 490px;
+  height: 670px;
+  position: absolute;
+  top: -670px;
+  left: -350px;
+  animation-name: fadeIndwn;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  z-index: 10;
+}
+
+@keyframes fadeIndwn {
+  0% {
+    transform: translateY(-670);
+  }
+
+  100% {
+    transform: translateY(670px);
+  }
+}
+
+.iphoneblanc {
+  position: absolute;
+  top: 0px;
+  height: 670px;
+  left: 842px;
+}
+
+.derpop {
+  position: absolute;
+  bottom: 25px;
+  left: 867px;
+}
+
+.vosnou {
+  position: absolute;
+  top: 141px;
+  left: 965px;
+  */
+}
+
+.et {
+  position: absolute;
+  top: 126px;
+  left: 819px;
+  box-shadow: -10px 7px 19px -6px rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+}
+
+.cotenoir {
+  position: absolute;
+  width: 490px;
+  height: 670px;
+  left: 0px;
+  top: 670px;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(670);
+  }
+
+  100% {
+    transform: translateY(-670px);
+  }
+}
+
+.shapeshifter {
+  position: absolute;
+  left: 235px;
+  bottom: 83px;
+  z-index: 100;
+  re
+}
+
+.bulle {
+  position: absolute;
+  transform: scale(1.5);
+  right: -727px;
+  bottom: 80px;
+  z-index: 100;
+}
+
+.etoile {
+  position: absolute;
+  right: -728px;
+  bottom: 81px;
+  transform: scale(1.5);
+  z-index: 101;
+}
+
+.etoileJaune {
+  position: absolute;
+  right: -728px;
+  bottom: 81px;
+  transform: scale(1.5);
+  z-index: 102;
+  animation-name: Grow;
+  animation-duration: 1.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Grow {
+  0% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(6.5);
+    opacity: 0;
+  }
+}
+
+.rester {
+  position: absolute;
+  width: 270px;
+  height: 85px;
+  top: 26px;
+  right: 221px;
+  z-index: 100;
+  animation-name: restclip;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+@keyframes restclip {
+  0% {
+    -webkit-clip-path: inset(0 100% 0 0%);
+    left: 490px;
+  }
+
+  100% {
+    -webkit-clip-path: inset(0 0 0 0%);
+    left: 221px;
+  }
+}
+
+.infor {
+  position: absolute;
+  top: 48px;
+  z-index: 1000;
+  animation-name: infoclip;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+@keyframes infoclip {
+  0% {
+    -webkit-clip-path: inset(0% 100% 0% 100%);
+    right: 550px;
+  }
+
+  100% {
+    -webkit-clip-path: inset(0 00% 0% 0%);
+    right: 200px;
+  }
+}
+
+.splash {
+  width: 600px;
+  height: 233px;
+  position: absolute;
+  border-radius: 10px;
+  left: 192px;
+  top: 185px;
+  background-color: rgba(255, 255, 255, .75);
+  z-index: 1001;
+  box-shadow: 13px 11px 25px 1px rgba(0, 0, 0, 0.39);
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  animation-name: splashAnim;
+  animation-duration: 1s;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+}
+
+@keyframes splashAnim {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transition: scale(1);
+  }
+}
+
+.logoln {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.telechar {
+  transform: scale(4.5);
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.appstore {
+  transform: scale(4);
+  position: relative;
+  left: 150px;
+  top: 55px;
+}
+
+.googPlay {
+  transform: scale(4);
+  position: relative;
+  left: 357px;
+  top: 56px;
+}

@@ -1,0 +1,175 @@
+.grpRond {
+  width: 132px;
+  height: 672px;
+  position: absolute;
+  left: 50px;
+  animation-name: grpRondAnim;
+  animation-fill-mode: both;
+  animation-delay: .75s;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+}
+
+@keyframes grpRondAnim {
+  0% {
+    top: -495px;
+  }
+
+  100% {
+    top: 671px;
+  }
+}
+
+.rndCozic {
+  position: absolute;
+  right: -200px;
+  top: 55px;
+  animation-duration: 4s;
+  animation-name: animCozic;
+  animation-delay: 2.2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animCozic {
+  0% {
+    right: -200px;
+  }
+
+  33% {
+    right: 13px;
+  }
+
+  66% {
+    right: 13px;
+  }
+
+  100% {
+    right: 230px;
+  }
+}
+
+.rndAvDJ {
+  position: absolute;
+  top: 270px;
+  animation-name: rndAvDJanim;
+  animation-duration: 3.6s;
+  animation-delay: 2.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+@keyframes rndAvDJanim {
+  0% {transform: scale(1);
+    right: -200px;
+  }
+  25%{
+    right: 13px;
+    transform: scale(1);
+  }
+  40%{
+    transform: scale(1);
+  }
+  46%{
+    transform: scale(1);
+  }
+  48%{
+    transform: scale(1.17);
+  }
+  50%{
+    transform: scale(1.17);
+  }
+  52%{
+    transform: scale(1);
+  }
+  63%{
+    right: 13px;
+    transform: scale(1);
+  }
+  100%{
+    right:230px;
+    transform: scale(1);
+  }
+}
+.date1{
+  position: absolute;
+  left: 28px;
+  bottom: 132px;
+  animation-name: date1anim;
+  animation-duration: 2s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+@keyframes date1anim {
+  0%{
+    opacity: 0;
+  }
+  33%{
+    opacity: 1;
+  }
+  66%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.mbna{
+  animation-name: mbnaanim;
+  animation-duration: 1s;
+  animation-delay: 4.3s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+@keyframes mbnaanim {
+  0%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  }
+
+.commandites{
+  position: absolute;
+  left:15px;
+  animation-name: commanditesanim;
+  animation-duration: .8s;
+  animation-delay: 6.2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes commanditesanim {
+  0%{
+    bottom: 160px;
+    opacity: 0;
+  }
+  100%{
+    bottom: 194px;
+    opacity: 1;
+  }
+}
+.date2{
+  position: absolute;
+  top: 137px;
+  left:14px;
+  animation-name: date2anim;
+  animation-duration: .8s;
+  animation-delay: 6.4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes date2anim {
+  0%{
+    top:120px;
+    opacity: 0;
+  }
+  100%{
+    top: 137px;
+    opacity: 1;
+  }
+}

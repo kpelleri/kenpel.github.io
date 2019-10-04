@@ -1,0 +1,25 @@
+@keyframes play23 {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: -713px 0px;
+  }
+}
+
+.shapeshifter {
+  transform: scale(1.5);
+  margin: 0px;
+  animation-duration: 750ms;
+  animation-timing-function: steps(23);
+  width: 31px;
+  height: 23px;
+  background-repeat: no-repeat;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
+}
+
+.shapeshifter.play {
+  animation-name: play23;
+}

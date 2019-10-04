@@ -1,0 +1,275 @@
+.ad {
+  background-color: rgb(37, 108, 142);
+}
+.date {
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+}
+
+.salonem {
+  position: absolute;
+  bottom: 44px;
+}
+
+.ashawi {
+  animation: type 1.5s steps(24);
+  overflow: hidden;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 32ch;
+  }
+}
+
+.desdefis {
+  position: absolute;
+  top: 31px;
+  animation: type2 1.5s steps(24);
+  overflow: hidden;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes type2 {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 32ch;
+  }
+}
+
+.tousles {
+  position: absolute;
+  top: 65px;
+  animation: type3 1.5s steps(24);
+  overflow: hidden;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+}
+
+@keyframes type3 {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 37ch;
+  }
+}
+
+.meme {
+  position: absolute;
+  top: 97px;
+  animation: type4 1.5s steps(24);
+  overflow: hidden;
+  animation-delay: 5.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes type4 {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 37ch;
+  }
+}
+
+.pour {
+  position: absolute;
+  top: 135px;
+  left: 2px;
+  animation: type5 .5s steps(8);
+  overflow: hidden;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+}
+
+@keyframes type5 {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 12ch;
+  }
+}
+
+.lesemplois {
+  position: absolute;
+  top: 165px;
+  animation: type6 1.5s steps(24);
+  overflow: hidden;
+  animation-delay: 7.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes type6 {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 37ch;
+  }
+}
+
+.texteanim {
+  position: relative;
+  left: 133px;
+  top: 18px;
+  transform: scale(1.5);
+}
+
+.corps {
+  position: absolute;
+  left: 15px;
+  bottom: 91px;
+}
+
+.coudeG {
+  position: absolute;
+  left: 163px;
+  bottom: 184px;
+  z-index: 100;
+}
+
+.coudeD {
+  position: absolute;
+  left: 148px;
+  bottom: 146px;
+  z-index: 102;
+}
+
+.mainG {
+  position: absolute;
+  left: 180px;
+  bottom: 196px;
+  animation: animMainG .75s;
+  transform-origin: bottom left;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 8s;
+}
+
+@keyframes animMainG {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-30deg);
+    left: 190px;
+  }
+
+  60% {
+    transform: rotate(-30deg);
+    left: 190px;
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.mainD {
+  position: absolute;
+  left: 170px;
+  bottom: 157px;
+  animation-fill-mode: both;
+  animation-name: animMainD;
+  transform-origin: bottom left;
+  animation-duration: .8s;
+  animation-timing-function: ease-out;
+  animation-delay: 8.1s;
+  z-index: 101;
+}
+
+@keyframes animMainD {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: rotate(-30deg);
+    left: 180px;
+    bottom: 154px;
+  }
+
+  70% {
+    transform: rotate(-30deg);
+    left: 180px;
+    bottom: 154px;
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.sourcilG{
+  position: absolute;
+  left: 18px;
+  bottom: 326px;
+  animation-fill-mode: both;
+  animation: animSourcilG 2;
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+}
+@keyframes animSourcilG {
+  0%{
+    left: 18px;
+    bottom: 326px;
+  }
+  50%{
+    left: 15px;
+    bottom: 330px;
+  }
+  65%{
+    left: 15px;
+    bottom: 330px;
+  }
+  100%{
+    left: 18px;
+    bottom: 326px;
+  }
+}
+.sourcilD{
+  position: absolute;
+  left: 108px;
+  bottom: 325px;
+  animation-fill-mode: both;
+  animation: animSourcilD 2;
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+}
+@keyframes animSourcilD {
+  0%{
+    left: 108px;
+    bottom: 325px;
+  }
+  50%{
+    left: 115px;
+    bottom: 330px;
+  }
+  65%{
+    left: 115px;
+    bottom: 330px;
+  }
+  100%{
+    left: 108px;
+    bottom: 325px;
+  }
+}
