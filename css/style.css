@@ -782,3 +782,48 @@ h3{
   padding-bottom: 10px;
   padding-top: 10px;
 }
+.Ulaval{
+  transform: scale(.5);
+  position: absolute;
+  transition: transform .5s;
+  transform-origin: left;
+  left: 38px;
+  top: 10px;
+}
+.hoverULaval:active{
+  transform: scale(1);
+  z-index: 100;
+  position: absolute;
+  left:0;
+}
+.PBall1{
+  transform: scale(.3);
+  position: absolute;
+  transition: transform .5s;
+
+  right: -100px;
+  top: -75px;
+}
+.hoverPaintbal1:active{
+  transform: scale(1);
+  z-index: 100;
+  position: absolute;
+  left:-400px;
+  top: 0px;
+}
+.PBall2{
+  transform: scale(.3);
+  position: absolute;
+  transition: transform .5s;
+  transform-origin: right;
+
+  right: 35px;
+  top: 35px;
+}
+.hoverPaintbal2:active{
+  transform: scale(1);
+  z-index: 100;
+  position: absolute;
+  left:-400px;
+  top: 0px;
+}
